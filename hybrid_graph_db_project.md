@@ -63,14 +63,14 @@ Traditional query systems struggle to unify these models efficiently. HybridGrap
 
 ## Demo Use Case
 
-> "Find all customers within 2 hops of a flagged transaction, whose text logs and purchase patterns resemble known fraud cases."
+> **"Find all FEMA aid recipients within 2 hops of a recent disaster zone, whose relocation patterns and case communication logs resemble those from historically vulnerable displacement clusters."**
 
 This use case blends:
 
-- Graph queries (neighbor hops)
-- Embedding similarity (fraud log patterns)
-- SQL joins (customer metadata)
-- Time-based filtering (recent transactions)
+- Graph queries (neighbor hops, relocation chains)
+- Embedding similarity (textual patterns in applications and aid logs)
+- SQL joins (recipient metadata)
+- Time-based filtering (recent disaster declarations)
 
 HybridGraphDB efficiently handles this by using HNSW to prefilter relevant regions before dispatching precise model-specific queries.
 
